@@ -18,6 +18,7 @@ passport.use(new GoogleStrategy({
 },
 function (accessToken, refreshToken, profile, done) {
   console.log('Use GoogleStrategy');
+  // Todo: Custom data profile
   return done(null, profile);
 }
 ));

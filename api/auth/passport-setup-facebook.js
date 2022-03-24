@@ -18,6 +18,7 @@ passport.use(new FacebookStrategy({
 },
 function (accessToken, refreshToken, profile, done) {
   console.log('Use Facebook Strategy');
+  // Todo: Custom data profile
   return done(null, profile);
 }
 ));

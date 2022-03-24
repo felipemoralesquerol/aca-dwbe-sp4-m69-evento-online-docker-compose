@@ -18,6 +18,7 @@ passport.use(new LinkedInStrategy({
 },
 function (accessToken, refreshToken, profile, done) {
   console.log('Use LinkedIn Strategy');
+  // Todo: Custom data profile
   return done(null, profile);
 }
 ));
