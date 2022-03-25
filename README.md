@@ -99,6 +99,29 @@ Adaptación de HTML básico con soporte previo de integración con Google, Faceb
 3. Ejecución de test ejecutando `npm run test`
 4. A disfrutar!!
 
+## 3. docker-compose
+
+Información de referencia "Aprende sobre Docker Compose" de Daniel Segovia en https://youtu.be/HdWaQO0G2ZY
+    
+    Se realiza a través de la configuración de un archivo:
+    docker-compose.yml
+
+### a. Ejecución de docker-compose
+
+    Se utiliza el comando:
+    docker-compose up
+
+    En caso extremo que se requiera forzar la creación se puede utilizar el comando
+    docker-compose up --force-recreate
+
+### b. Eliminación de los containers
+
+    Se utiliza el comando:
+    docker-compose down
+
+
+
+
 #### Documentación de la aplicación vía PostMan:
 
 - Descarga y ejecuta localmente la colección https://github.com/felipemoralesquerol/aca-dwbe-sp4-m60-evento-online/blob/master/api/postman/aca-dwbe-sp4-m60-evento-online.postman_collection.json
